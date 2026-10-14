@@ -1,0 +1,32 @@
+
+record Loan(int DaysOut, bool Student);
+
+class Fees
+{
+    private const int LoanDays = 14;
+    private const int GraceDays = 3;
+    private const decimal StudentRate = 0.10m;
+    private const decimal StandardRate = 0.25m;
+    private const decimal MaxFine = 10m;
+
+    public decimal OverdueFine(Loan loan)
+    {
+        int daysLate = loan.DaysOut - LoanDays;
+        if (daysLate <= GraceDays)
+        {
+            return 0m;
+        }
+        decimal dailyRate = loan.Student ? StudentRate : StandardRate;
+        return Math.Min(daysLate * dailyRate, MaxFine);
+    }
+}
+
+class ReturnDesk
+{
+    private readonly Fees fees = new();
+
+    public string Receipt(Loan loan)
+    {
+        return $"Late fine: ${fees.OverdueFine(loan)}";
+    }
+}

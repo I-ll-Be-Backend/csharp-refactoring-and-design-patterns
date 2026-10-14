@@ -7,6 +7,7 @@ Code from the [I'll Be Backend](https://www.youtube.com/@illbebackend) videos: m
 | Lesson | Steps | Video | Interactive |
 |---|---|---|---|
 | [DRY: one rule, one place](dry/) | 11 | [Watch](https://www.youtube.com/watch?v=J156aSo8YNw) | [Open](https://illbebackend.dev/lessons/dry/csharp/) |
+| [Clean code: rename for intent](rename-for-intent/) | 13 | [Watch](https://www.youtube.com/watch?v=g1k-0nwqo0Q) | [Open](https://illbebackend.dev/lessons/rename-for-intent/csharp/) |
 
 ## How to use it
 
