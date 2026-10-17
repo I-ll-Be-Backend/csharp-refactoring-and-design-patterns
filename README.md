@@ -14,6 +14,7 @@ Code from the [I'll Be Backend](https://www.youtube.com/@illbebackend) videos: m
 |---|---|---|---|
 | [DRY: one rule, one place](dry/) | 11 | [Watch](https://www.youtube.com/watch?v=J156aSo8YNw) | [Open](https://illbebackend.dev/lessons/dry/csharp/) |
 | [Clean code: extract until it reads](extract-until-it-reads/) | 10 | [Watch](https://www.youtube.com/watch?v=GzUfRSvBMzo) | [Open](https://illbebackend.dev/lessons/extract-until-it-reads/csharp/) |
+| [KISS: replace a rule engine with plain code](kiss-unwind-a-clever-abstraction/) | 13 | [Watch](https://www.youtube.com/watch?v=hWCxXwYWkug) | [Open](https://illbebackend.dev/lessons/kiss-unwind-a-clever-abstraction/csharp/) |
 | [Clean code: rename for intent](rename-for-intent/) | 13 | [Watch](https://www.youtube.com/watch?v=g1k-0nwqo0Q) | [Open](https://illbebackend.dev/lessons/rename-for-intent/csharp/) |
 
 ## How to use it
